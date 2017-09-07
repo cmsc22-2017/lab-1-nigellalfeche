@@ -1,4 +1,4 @@
-interface IMenu {}
+interface IMenu {
 	
 	class soup implements IMenu{
 		item info;
@@ -65,3 +65,4 @@ interface IMenu {}
 		item san1 = new item ("Cheese sandwich", 15);
 		IMenu sannd1 = new sandwich (san1, "Wheat bread", "Peanut Butter");
 	}
+}
